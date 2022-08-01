@@ -5,18 +5,20 @@
     font-size: 54px;
     line-height: 58px;
     margin: 0;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
     .intro__title {
-        font-size: 32px;
-        line-height: 35px;
+        font-size: 54px;
+        line-height: 58px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .intro__title {
         max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }

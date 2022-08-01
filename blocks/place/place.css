@@ -1,14 +1,15 @@
 .place {
     display: grid;
     grid-template-columns: 460px 1fr;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: 1fr;
     gap: 48px 40px;
-    box-sizing: border-box;
-    margin-top: 80px;
+    padding: 0;
+    margin-bottom: 80px;
+    position: relative;
 }
 
-.place:first-child {
-    margin-top: 0;
+.place:last-of-type {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,14 +23,22 @@
     .place {
         gap: 48px 28px;
         grid-template-columns: 340px 1fr;
+        margin-bottom: 73px;
+    }    
+
+    .place:last-of-type {
+            margin-bottom: 0;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .place {
         gap: 32px;
-        margin: 0 auto;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
+        margin-bottom: 50px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 0;
     }
 }

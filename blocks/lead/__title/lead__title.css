@@ -2,18 +2,35 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
+    line-height: 104%;
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
     max-width: 720px;
+    padding-bottom: 32px;
     white-space: pre-line;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
     .lead__title {
+        padding: 0 16px 16px;
+        font-size: 45px;
+        line-height: 110%;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        width: calc(100% - 2*24px);
+        padding: 16px 16px 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        padding-bottom: 16px;
         font-size: 40px;
-        line-height: 44px;
-        white-space: pre-line;
+        line-height: 110%;
         max-width: 288px;
     }
 }

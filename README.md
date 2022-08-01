@@ -4,3 +4,6 @@
 ### Технологии
 * HTML
 * CSS
+
+### Ссылка на проект 
+https://ztyyi.github.io/russian-travel/index.html

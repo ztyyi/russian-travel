@@ -13,9 +13,9 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .place__text {
-        max-width: 288px;
+        max-width: 720px;
         grid-row: 4;
         grid-column: 1;
         gap: 25px;

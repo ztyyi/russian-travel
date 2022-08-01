@@ -3,11 +3,11 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 19px;
-    flex-wrap: wrap;
+    gap: 18px;
+    position: relative;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:767px) {
     .footer__list {
         flex-direction: column;
         margin-bottom: 48px;
