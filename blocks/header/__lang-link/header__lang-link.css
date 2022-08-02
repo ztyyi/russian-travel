@@ -8,6 +8,7 @@
     margin: 0;
     color: #FFFFFF;
     transition: opacity 0.3s ease;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
@@ -19,8 +20,4 @@
         font-size: 18px;
         line-height: 20px;
     }
-}
-
-.header__lang-link:last-of-type {
-    text-decoration: none;
 }

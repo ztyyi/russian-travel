@@ -4,7 +4,7 @@
     font-style: normal;
     font-size: 16px;
     line-height: 18px;
-    transition: opacity 0.3 ease;
+    transition: opacity 0.3s ease;
     color: #FFFFFF;
     text-decoration: none;
 }
